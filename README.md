@@ -23,13 +23,19 @@ The DRL environment is created using the custom environment wrappers provided in
 
 Stable Baselines3 is used to train a DRL agent
 
+***Training Results***
+
+If you haven't modified the rewards function and have trained PPO on the environment, the performance of the agent will look something like this:
+
+![performance](./agent_performance.png "Agent Performance")
+
+Training should take 10-15 minutes.
 
 ***Scripts and files***
 - mixing_env.py -> defines the environment
 - train_model_mixer.py -> train DRL agent
 - test_env.py -> test the environment
 - load_model_mixer.py -> load DRL agent
-
 
 
 
